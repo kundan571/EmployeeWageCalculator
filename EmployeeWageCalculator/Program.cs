@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome To Employee Wage Computation");
+            EmployeeWage.CheckAttendance();
         }
     }
 }
