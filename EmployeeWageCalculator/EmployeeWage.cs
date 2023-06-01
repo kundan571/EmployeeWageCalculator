@@ -64,4 +64,26 @@ public class EmployeeWage
         int partTimeWage = DailyEmployeeWage();
         return partTimeWage;
     }
+
+    public static int DailyWageSwitchCase()
+    {
+        int EmployeeHours = 0;
+        switch (CheckAttendance())
+        {
+            case IS_PRESENT:
+                EmployeeHours = FULL_DAY_HOURS;
+                break;
+            case PART_PRESENT:
+                EmployeeHours = PART_HOURS;
+                break;
+            default:
+                EmployeeHours = 0;
+                break;
+        }
+
+        int DailyWage = EmployeeHours * PER_HOUR_WAGE;
+        Console.WriteLine($"Employee Wage: {DailyWage}");
+        return DailyWage;
+
+    }
 }
