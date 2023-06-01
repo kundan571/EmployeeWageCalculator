@@ -13,6 +13,7 @@ public class EmployeeWage
     public const byte PER_HOUR_WAGE = 20;
     public const byte FULL_DAY_HOURS = 8;
     public const byte PART_HOURS = 4;
+    public const byte NO_OF_WORKING_DAY = 20;
 
     public static int CheckAttendance()
     {
@@ -85,5 +86,17 @@ public class EmployeeWage
         Console.WriteLine($"Employee Wage: {DailyWage}");
         return DailyWage;
 
+    }
+
+    public static int MonthlyWage()
+    {
+        int MonthlyWage = 0;
+        for (int day = 1; day <= NO_OF_WORKING_DAY; day++)
+        {
+            int DailyWage = DailyWageSwitchCase();
+            MonthlyWage += DailyWage;
+        }
+        Console.WriteLine($"Total Monthly Wage: {MonthlyWage}");
+        return MonthlyWage;
     }
 }
