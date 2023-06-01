@@ -10,6 +10,9 @@ public class EmployeeWage
 {
     public const byte IS_PRESENT = 1;
     public const byte PART_PRESENT = 2;
+    public const byte PER_HOUR_WAGE = 20;
+    public const byte FULL_DAY_HOURS = 8;
+    public const byte PART_HOURS = 4;
 
     public static int CheckAttendance()
     {
@@ -29,6 +32,30 @@ public class EmployeeWage
         {
             Console.WriteLine("Employee is absent:");
             return Attendance;
+        }
+    }
+
+    public static int DailyEmployeeWage()
+    {
+        int EmployeeCheck = CheckAttendance();
+        if (EmployeeCheck == IS_PRESENT)
+        {
+            int DailyWage = PER_HOUR_WAGE * FULL_DAY_HOURS;
+            Console.WriteLine($"Daily Wage: {DailyWage}");
+            return DailyWage;
+        }
+        else if (EmployeeCheck == PART_PRESENT)
+        {
+            int DailyWage = PER_HOUR_WAGE * PART_HOURS;
+            Console.WriteLine($"Daily Wage: {DailyWage}");
+            return DailyWage;
+        }
+
+        else
+        {
+            int DailyWage = 0;
+            Console.WriteLine($"Daily wage: {DailyWage}");
+            return DailyWage;
         }
     }
 }
