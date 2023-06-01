@@ -58,4 +58,10 @@ public class EmployeeWage
             return DailyWage;
         }
     }
+
+    public static int AddedPartTimeWage() 
+    { 
+        int partTimeWage = DailyEmployeeWage();
+        return partTimeWage;
+    }
 }

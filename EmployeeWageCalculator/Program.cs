@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             // EmployeeWage.CheckAttendance();
-            EmployeeWage.DailyEmployeeWage();
+            // EmployeeWage.DailyEmployeeWage();
+            EmployeeWage.AddedPartTimeWage();
         }
     }
 }
