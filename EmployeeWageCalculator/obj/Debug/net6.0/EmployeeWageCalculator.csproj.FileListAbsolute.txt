@@ -1,0 +1,15 @@
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\bin\Debug\net6.0\EmployeeWageCalculator.exe
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\bin\Debug\net6.0\EmployeeWageCalculator.deps.json
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\bin\Debug\net6.0\EmployeeWageCalculator.runtimeconfig.json
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\bin\Debug\net6.0\EmployeeWageCalculator.dll
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\bin\Debug\net6.0\EmployeeWageCalculator.pdb
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\EmployeeWageCalculator.csproj.AssemblyReference.cache
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\EmployeeWageCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\EmployeeWageCalculator.AssemblyInfoInputs.cache
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\EmployeeWageCalculator.AssemblyInfo.cs
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\EmployeeWageCalculator.csproj.CoreCompileInputs.cache
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\EmployeeWageCalculator.dll
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\refint\EmployeeWageCalculator.dll
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\EmployeeWageCalculator.pdb
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\EmployeeWageCalculator.genruntimeconfig.cache
+C:\Users\kunda\source\repos\EmployeeWageCalculator\EmployeeWageCalculator\obj\Debug\net6.0\ref\EmployeeWageCalculator.dll
